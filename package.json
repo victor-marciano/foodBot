@@ -1,0 +1,19 @@
+{
+  "name": "botfood",
+  "version": "1.0.0",
+  "description": "Telegram bot to retrieve food data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "author": "Victor Marciano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
